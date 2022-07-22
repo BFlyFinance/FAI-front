@@ -1,0 +1,197 @@
+{
+  "account": {
+    "Wallet Balance": "Wallet Balance",
+    "Protocol Balance": "Protocol Balance",
+    "Outstanding FAI debt": "Outstanding FAI debt",
+    "Current FAI Value": "Current FAI Value",
+    "Available To Generate": "Available To Generate",
+    "Current Collateral Ratio": "Current CCR",
+    "Minimum Collateral Ratio": "Minimum Collateral Ratio",
+    "Minting Fee": "Minting Fee",
+    "Minting Fee Rate": "Minting Fee Rate",
+    "STC Locked": "STC Locked",
+    "Able to withdraw": "Able to withdraw",
+    "STC Information": "STC Information",
+    "TVL_STC": "Total Value Locked",
+    "Current Price (STC/USD)": "Current Price (STC/USD)",
+    "tab": {
+      "Supply": "Supply",
+      "Mint": "Mint",
+      "Withdraw": "Withdraw",
+      "Repay": "Repay"
+    },
+    "form": {
+      "STC Supplying": "STC Supplying",
+      "Collateral Locking": "Collateral Locking",
+      "Available FAI limit": "Available FAI limit",
+      "Available FAI": "Available FAI",
+      "Minting Fee": "Minting Fee",
+      "Collateral Ratio": "Collateral Ratio",
+      "FAI Balance": "Wallet FAI Balance",
+      "STC withdrawing": "STC withdrawing",
+      "FAI repaying": "FAI repaying",
+      "Repay FAI balance": "Repay FAI balance",
+      "Minimum Collateral Ratio": "Minimum Collateral Ratio",
+      "Available to withdraw": "Available to withdraw",
+      "Repay Include Fee Tooltip": "Minting Fee Included"
+    },
+    "Enable Vault Btn": "Enable Vault",
+    "btn": {
+      "Enable Vault": "Enable Vault",
+      "Mint FAI": "Mint FAI",
+      "Repay FAI": "Repay FAI",
+      "Supply": "Supply",
+      "Withdraw": "Withdraw"
+    },
+    "message": {
+      "Create Vault Success": "Create Vault Success!",
+      "supplySuccess": "Supply Success!",
+      "withdrawSuccess": "Withdraw Success!",
+      "mintSuccess": "Mint Success",
+      "repaySuccess": "Repay Success!"
+    },
+    "Maximum supply limit exceeded": "Maximum supply limit exceeded",
+    "Not Enough Balance": "Not Enough Balance",
+    "Account Info": "Account Info",
+    "Your Collateral": "Your Collateral",
+    "Health Factor": "Health Factor",
+    "Borrowing Power Used": "Borrowing Power Used",
+    "modal": {
+      "hfOpenDialogTitle": "Health Factor",
+      "hfOpenDialogTitleTips": "Health Factor Tip",
+      "okBtn": "Ok, I got it!",
+      "Add Collateral Btn": "Add now",
+      "ccrOpenDialogTitle": "CCR",
+      "mintFeeOpenDialogTitle": "Mint Fee",
+      "HF Formula": "HF = Value of Collateral * Liquidation threshold / Value of FAI",
+      "HF Content": "The health factor represents the safety of your account(loan).   HF equals ratio between value of Collateral vs value of FAI.  Keep it above 1 to avoid liquidation.",
+      "HF Tips Content": "Your current health factor is {hf}, CCR is {ccr}%. Upon current outstanding FAI, your position will be liquidated when STC price drops below ${lowerSTCPrice}. In order to prevent from liquidation, be sure to check and add collateral.",
+      "CCR Content": "CCR(Collateral Coverage Ratio) represents ratio between your collateral value and FAI value. Your position is safer when CCR is higher. The minimum CCR in FAI protocol is 300%. ",
+      "Mint Fee Content": "According to FAI protocol, you need to pay a small fee when minting FAI. The minting fee APR is 3% now. Your current minting fee is {fee} FAI."
+    },
+    "Over Minted FAI Balance": "Over Minted FAI Balance"
+  },
+  "official": {
+    "menus": {
+      "index": "Index",
+      "market": "Market",
+      "governance": "Governance",
+      "docs": "Docs",
+      "security": "Security",
+      "community": "Community"
+    },
+    "index": {
+      "bannerDesc": "Borrow, earn and build on the very first lending protocol on Starcoin Chain.",
+      "marketDesc": "A Decentralized Market to deposit and borrow assets whilst earning interest. With B-Fly protocol, you can not only use fungible tokens as collateral, but also Non-Fungible Tokens(NFTs).",
+      "keyFeatureCard": [
+        {
+          "title": "NFT + DeFi",
+          "desc": "A single deployed contract on B-Fly protocol can include any combination of fungible tokens, non-fungible tokens or other configuration."
+        },
+        {
+          "title": "Multi-Chain Operability",
+          "desc": "With B-Fly protocol, you can borrow and lend across most blockchains with ease."
+        },
+        {
+          "title": "Batch Transfer",
+          "desc": "With B-Fly protocol, you can transfer your assets and debts together, saving up to 90% gas fee."
+        }
+      ],
+      "roadMap": {
+        "title": "Roadmap"
+      },
+      "securityDesc": "The B-Fly protocol is one of the most secure DeFi project in the crypto world. With innate nature of “move” language, the protocol is more robust in preventing certain attacks."
+    },
+    "btn": {
+      "app": "App",
+      "protocalDocs": "Protocol Docs",
+      "protocalSecurity": "Protocol Security"
+    },
+    "footer": {
+      "legal": "Legal",
+      "resource": "Resource",
+      "connect": "Connect",
+      "about": "About",
+      "team": "Team",
+      "career": "Career",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "concact": "Concact",
+      "faq": "FAQ",
+      "stc-homepage": "STC Homepage",
+      "oracles": "Oracles",
+      "product": "Product",
+      "starmask-wallet": "StarMask Wallet",
+      "swap": "Swap"
+    }
+  },
+  "borrow": {
+    "home": {
+      "data": {
+        "availableRewards": "Available Rewards",
+        "supplyBalance": "Supply Balance",
+        "borrowBalance": "Borrow Balance",
+        "borrowLimit": "Borrow Limit",
+        "borrowRate": "Borrow Rate"
+      },
+      "table": {
+        "supplyMarket": "Supply Market",
+        "borrowMarket": "Borrow Market",
+        "column": {
+          "supplyAPY": "Supply APY",
+          "supplyBalance": "Supply",
+          "asset": "Asset",
+          "wallet": "Wallet",
+          "borrowAPY": "Borrow APY",
+          "borrowBalance": "Borrow",
+          "liquidity": "LIQUIDITY"
+        }
+      },
+      "modal": {
+        "supplyAPY": "Supply APY",
+        "borrowAPY": "Borrow APY",
+        "supplyBalance": "Supply Balance",
+        "borrowBalance": "Borrow Balance",
+        "borrowLimit": "Borrow Limit",
+        "borrowRate": "Borrow Limit Rate",
+        "currentlyBorrowing": "Currently Borrowing",
+        "walletBalance": "Wallet Balance",
+        "notEnoughBalance": "Not Enough Balance",
+        "notEnoughLiquidity": "Not enough liquidity",
+        "hasNotAsset": "You first need to provide a collateral with supply",
+        "noSupplyBalance": "No Supply Balance",
+        "overRiskAsset": "Over risk Asset",
+        "transactionSuccess": "Transaction Success"
+      },
+      "main": {
+        "nowBorrow": "Borrow amount",
+        "borrowNow": "Borrow Now",
+        "averageMortgageRate": "Average CCR",
+        "borrowAPY": "Borrow APY",
+        "mortgareValue": "Collateral Value"
+      }
+    },
+    "assets": {
+      "Available Rewards": "Available Rewards"
+    },
+    "tab": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "borrow": "Borrow",
+      "repay": "Repay"
+    },
+    "btn": {
+      "max": "Max",
+      "claim": "Claim",
+      "connect": "Connect",
+      "depositnow": "Deposit Now!",
+      "withDraw": "Withdraw",
+      "deposit": "Deposit",
+      "borrow": "Borrow",
+      "repay": "Repay"
+    },
+    "msg": {
+      "copySuccess": "Address Copied Success!"
+    }
+  }
+}
